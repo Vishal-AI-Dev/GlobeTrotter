@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .sketch-input {
+    width: 100%;
+    padding: 14px 20px;
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #102C57;
+    transition: all 0.2s;
+  }
+
+  .sketch-input:focus {
+    outline: none;
+    border-color: #102C57;
+    box-shadow: 0 10px 20px rgba(16, 44, 87, 0.05);
+  }
+
+  .dashboard-control-input {
+    padding: 14px 20px;
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #102C57;
+    transition: all 0.2s;
+  }
+
+  .dashboard-control-input:focus {
+    outline: none;
+    border-color: #102C57;
+  }
+
+  .dashboard-control-select {
+    padding: 14px 20px;
+    background: white;
+    border: 2px solid #E2E8F0;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #102C57;
+    cursor: pointer;
+  }
+}
